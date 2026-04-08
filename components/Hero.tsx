@@ -31,7 +31,6 @@ export default function Hero() {
         performance and simplicity.
       </motion.p>
 
-      {/* BUTTONS */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -40,20 +39,19 @@ export default function Hero() {
       >
         <a
           href="/cv.pdf"
-          className="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+          className="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 hover:scale-105 transition duration-300"
         >
           Download CV
         </a>
 
         <a
           href="#contact"
-          className="border border-gray-500 px-6 py-3 rounded-lg hover:bg-gray-800 transition"
+          className="border border-gray-500 px-6 py-3 rounded-lg hover:bg-gray-800 hover:scale-105 transition duration-300"
         >
           Contact Me
         </a>
       </motion.div>
 
-      {/* ICONS */}
       <div className="flex gap-6 mt-8 text-2xl">
         <a href="#"><FaGithub /></a>
         <a href="#"><FaLinkedin /></a>
